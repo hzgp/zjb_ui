@@ -1,6 +1,6 @@
 {
   "name": "zjb_ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "''\u001b[D我的组件\u001b[D\u001b[D\u001b[D\u001b[Dweapp组件'",
   "main": "index.js",
   "scripts": {
