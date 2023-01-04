@@ -1,0 +1,23 @@
+{
+  "name": "zjb_ui",
+  "version": "1.0.0",
+  "description": "''\u001b[D我的组件\u001b[D\u001b[D\u001b[D\u001b[Dweapp组件'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzgp/zjb_ui.git"
+  },
+  "keywords": [
+    "weapp",
+    "ui"
+  ],
+  "author": "zhangxiaofan_",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzgp/zjb_ui/issues"
+  },
+  "homepage": "https://github.com/hzgp/zjb_ui#readme"
+}

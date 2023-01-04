@@ -1,0 +1,9 @@
+<wxs module="m1">
+    var width=function(model,space){
+       return model==='Single'?'100vw':'calc(50vw - '+space+')'
+    }
+    module.exports.width=width
+</wxs>
+<view style="width:{{m1.width(model,space)}}">
+<van-button plain="{{plain}}" block type="{{type}}" custom-style="width: {{model===SINGLE?'80%':'85%'}};height:{{height?height:'80rpx'}}" catchtap="onClick" round>{{text}}</van-button>
+</view>

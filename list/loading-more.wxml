@@ -1,0 +1,5 @@
+<!--compments/loading.wxml-->
+<view class="more-loading">
+   <cover-image class="loading-view" src="../../image/loading.png"/>
+   <text>加载中...</text>
+</view>

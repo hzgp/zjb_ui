@@ -1,0 +1,18 @@
+.input-layout{
+  margin: 20rpx;
+  border-radius: 15rpx;
+  min-height:30vh;
+  background-color: white;
+  width: calc(100vw - 70rpx);
+  padding: 15rpx;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.input-count{
+  position: absolute;
+  bottom: 15rpx;
+  right: 35rpx;
+  font-size: 26rpx;
+  color: #888888;
+}

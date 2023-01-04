@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cell":"../cell/index",
+    "van-empty": "@vant/weapp/empty/index",
+    "v-loading":"./loading-more"
+  }
+}

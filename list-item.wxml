@@ -1,0 +1,14 @@
+<template name="card">
+  <view class="card line-space-20" data-item="{{item}}" catchtap="onItemClick">
+  <view class="sub-label flex-h">
+    <view>
+      订单号：{{item.OrderNo}}</view>
+    <view class="theme normal-font flex-r">{{item.StatusName}}</view>
+  </view>
+  <view class="line-space-small"></view>
+  <cell title="小组名称" value="{{item.GroupName}}" />
+  <cell title="下单时间" value="{{item.OrderTime}}" />
+  <cell wx-if="{{item.OrderStatus>=1}}" title="支付时间" value="{{item.OrderTime}}" />
+  <cell title="订单金额" valueClass="red" value="￥{{item.TotalAmount}}" />
+</view>
+</template>

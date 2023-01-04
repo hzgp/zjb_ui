@@ -1,0 +1,12 @@
+<import src="../list-item"/>
+<view class="list-container">
+  <scroll-view refresher-triggered="{{isRefreshing}}" class="tablist" bindrefresherrefresh="onRefresh" scroll-y="{{true}}" refresher-enabled="{{true}}" style="height: {{listheight}};" bindscrolltolower="onLoadMore">
+    <view wx-if="{{list.length>0}}">
+    <template is="{{cardname}}" wx:for="{{list}}" wx:key="Id"  data="{{item}}">
+    </template>
+      <v-loading wx:if="{{!finished}}"/>
+    </view>
+    <van-empty description="暂无订单" wx-if="{{hasInit&&list.length<=0}}" />
+  </scroll-view>
+  <slot name="foot"></slot>
+</view>

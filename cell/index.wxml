@@ -1,0 +1,5 @@
+<view class="cell">
+  <view class="~{{labelClass}} ^{{labelClass}} cell-label" style="width: {{lableWidth?lableWidth+'%':'25%'}}">{{title}}</view>
+  <view class="~{{valueClass}} ^{{valueClass}} cell-content" style="flex-grow: 1;max-width: {{'calc('+ (100-(lableWidth?lableWidth:25))+'% - 40rpx)'}};">{{value}}</view>
+  <van-icon size="40rpx" color="{{iconcolor}}" wx:if="{{icon}}" name="{{icon}}" catchtap="onIconClick"/>
+</view>

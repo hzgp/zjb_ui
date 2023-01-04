@@ -1,0 +1,4 @@
+<view style="position:relative;">
+  <textarea model:value="{{inputValue}}" style="min-height: {{minHeight}};" class="input-layout" bindinput="fakeCallback" maxlength="{{maxLength}}" auto-height="{{true}}" />
+  <view class="input-count">{{length}}/{{maxLength}}</view>
+</view>

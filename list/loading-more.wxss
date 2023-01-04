@@ -1,0 +1,25 @@
+/* compments/loading.wxss */
+
+.more-loading {
+    height: 80rpx;
+    text-align: center;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-view {
+    width: 40rpx;
+    height: 40rpx;
+    display: inline-block;
+    margin-right: 15rpx;
+    margin-top: 3rpx;
+    animation: floading 2s infinite linear;
+}
+
+@keyframes floading {
+    100% {
+        transform: rotate(360deg);
+    }
+}
